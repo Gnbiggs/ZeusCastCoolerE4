@@ -2,7 +2,7 @@
 
 An unofficial, modern Windows controller for the GAMDIAS CHIONE Digital four-digit cooler display (`VID_1B80`, `PID_B53C`).
 
-![Zeus Cast Enhanced interface](docs/ui-preview.png)
+![Zeus Cast Enhanced showing live CPU temperature and fan sensors](docs/zeuscast.png)
 
 ## Features
 

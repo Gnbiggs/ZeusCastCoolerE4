@@ -40,6 +40,7 @@ Copy-Item -LiteralPath (Join-Path $repositoryRoot 'README.md') -Destination $pub
 Copy-Item -LiteralPath (Join-Path $repositoryRoot 'LICENSE') -Destination $publishDirectory
 Copy-Item -LiteralPath (Join-Path $repositoryRoot 'THIRD-PARTY-NOTICES.md') -Destination $publishDirectory
 Copy-Item -LiteralPath (Join-Path $repositoryRoot 'licenses') -Destination $publishDirectory -Recurse
+Copy-Item -LiteralPath (Join-Path $repositoryRoot 'docs') -Destination $publishDirectory -Recurse
 Compress-Archive -Path (Join-Path $publishDirectory '*') -DestinationPath $archivePath -CompressionLevel Optimal
 $checksum = (Get-FileHash -LiteralPath $archivePath -Algorithm SHA256).Hash.ToLowerInvariant()
 Set-Content -LiteralPath $checksumPath -Value "$checksum  $([IO.Path]::GetFileName($archivePath))" -Encoding ASCII
