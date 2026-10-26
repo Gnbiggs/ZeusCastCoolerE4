@@ -1,0 +1,24 @@
+# Build output
+**/bin/
+**/obj/
+artifacts/
+publish*/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Logs and local settings
+*.log
+settings.json
+
+# Proprietary GAMDIAS SDK binaries are intentionally not redistributed
+app/Native/*.dll
+cpuidsdk*.dll
+
+# Windows
+Thumbs.db
+Desktop.ini

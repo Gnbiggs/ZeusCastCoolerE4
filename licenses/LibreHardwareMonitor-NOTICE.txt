@@ -1,0 +1,9 @@
+LibreHardwareMonitorLib 0.9.6
+Copyright (c) LibreHardwareMonitor contributors
+
+This component is licensed under the Mozilla Public License 2.0.
+License text: https://www.mozilla.org/MPL/2.0/
+Source: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+
+The component is referenced as an unmodified NuGet dependency. Its source code
+is available from the project URL above and from the corresponding NuGet package.
